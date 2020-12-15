@@ -8,11 +8,9 @@ print(jordan.name, jordan.email, jordan.phone)
 
 sonny.greet(jordan)
 
-
 sonny.print_contact_info()
 
-jordan.friends.append(sonny) 
-sonny.friends.append(jordan)
+jordan.add_friend(sonny)
 
-print(sonny.friends)
-print(jordan.friends)
+print(len(jordan.friends))
+

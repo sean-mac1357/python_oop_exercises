@@ -13,6 +13,6 @@ class Person:
         print("{}'s phone number: {}".format(self.name, self.phone))
 
     def add_friend(self, other_person):
-        self.add_friend = self.append(other_person)
-        print("{}'s friends are: ".format(self.name, self.friends))
+        self.friends.append(other_person)
+        print("{}'s friends are: {}".format(self.name, other_person.name))
 
