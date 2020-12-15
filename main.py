@@ -14,3 +14,7 @@ jordan.add_friend(sonny)
 
 print(len(jordan.friends))
 
+sonny.greet(jordan)
+sonny.greeting_count
+
+
